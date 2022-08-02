@@ -8,7 +8,7 @@ const Footer = () => {
   console.log(theme);
 
   return (
-    <footer className="tst">
+    <footer>
       <Container css={{ backgroundColor: theme.colors.background.value }} className="container-footer" fluid>
         <Row justify="space-between" align="center">
           <Image height={50} src={logo} objectFit="contain" alt="logo" className="logo-css" />
